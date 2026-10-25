@@ -1,13 +1,23 @@
 For tic tac toe project 
 
-19,683 total possible board positions and 255,168 total valid sequences of play (games)
+19,683 total possible board positions 
 
-total possibilities
-Total mathematical grid states: 3⁹ = 19,683 (each of the 9 squares can be blank, X, or O).
 
-• Total valid game plays: 255,168 unique sequences of moves from start to finish (stopping when a player wins or the board fills).
-	• Player X wins: 131,184 games
-	• Player O wins: 77,904 games
-	• Draws (Cat's game): 46,080 games
-• After accounting for board symmetry: There are 31,896 distinct games (or 26830 if considering full game symmetries).
-• With perfect play: Every game of tic-tac-toe ends in a draw.
+There are 255,168 valid games of tic-tac-toe, counting unique sequences of moves from the initial board to the end of the game. A game ends when a player wins or the board is completely filled.
+
+Outcome	Number of Games
+X Wins	131,184
+O Wins	77,904
+Draws (Cat's Game)	46,080
+Total	255,168
+Board Symmetry
+
+Accounting for board symmetries reduces the number of distinct game sequences:
+
+31,896 distinct games when accounting for board symmetry.
+26,830 distinct games when considering full game symmetries.
+Perfect Play
+
+With perfect play from both players, tic-tac-toe always ends in a draw. Neither player can guarantee a win against an opponent who plays optimally.
+
+This makes tic-tac-toe a solved game, meaning its optimal outcome is known.
